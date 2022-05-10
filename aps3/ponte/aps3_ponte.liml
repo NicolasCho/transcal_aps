@@ -144,9 +144,12 @@
     <nodeselection name="Unnamed(5)">
       <node nid="10" />
     </nodeselection>
-    <table />
+    <table>
+      <fieldvalue>tensileforce</fieldvalue>
+      <fieldvalue>sheary</fieldvalue>
+    </table>
     <results>
-      <stats start="2022-05-09T23:39:54.38" end="2022-05-09T23:39:54.42" duration=".03" />
+      <stats start="2022-05-10T09:34:57.88" end="2022-05-10T09:34:57.9" duration=".02" />
       <node nid="1" displx="0" disply="0" rotz="-0.000215163543936697" tensileforce="-58.0087747286603" sheary="-12.996222609482" bendingmomz="8.88178419700125E-16" stresspt1="-138116.130306334" stresspt2="-138116.130306334" stresspt3="-138116.130306334" stresspt4="-138116.130306334" stressptu="-138116.130306334" displmag="0" />
       <node nid="2" displx="-1.49860441036126E-06" disply="-1.29554830735577E-05" rotz="-0.000187923083753665" tensileforce="-17.3670371999678" sheary="-0.890965464152745" bendingmomz="0.0992138010330035" stresspt1="-61597.8030678833" stresspt2="-61597.8030678833" stresspt3="-21102.3740748207" stresspt4="-21102.3740748207" stressptu="-41350.088571352" displmag="1.30418693770484E-05" />
       <node nid="3" displx="-1.20404334291583E-06" disply="-2.7692519373893E-05" rotz="-0.000105626084919212" tensileforce="7.62844555246663" sheary="-1.76267615231114" bendingmomz="-0.524294038114025" stresspt1="125161.748889687" stresspt2="125161.748889687" stresspt3="-88835.8176874654" stresspt4="-88835.8176874654" stressptu="18162.965601111" displmag="2.7718682321587E-05" />
