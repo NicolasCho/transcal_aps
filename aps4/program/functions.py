@@ -163,7 +163,7 @@ def resultado_deslocamentos(deslocamentos, restricoes, nn):
 
     return matriz_desolcamentos
 
-def resultado_forcas(matriz_global, matriz_desolcamentos, restricoes):
+def resultado_apoio(matriz_global, matriz_desolcamentos, restricoes):
     """
         Recebe a matriz de rigidez global, o vetor de deslocamento (completo) e a lista de restrições. A função retorna o vetor correspondente 
         as reações de apoio.

@@ -21,7 +21,7 @@ def main():
     # Encontrando resultados
     deslocamentos = Gauss_Seidel(global_contorno, forca_contorno)
     matriz_desolcamentos = resultado_deslocamentos(deslocamentos, restricoes, nn)
-    apoios = resultado_forcas(mat_global, matriz_desolcamentos, restricoes)
+    apoios = resultado_apoio(mat_global, matriz_desolcamentos, restricoes)
     matriz_deformacao = resultado_deformacao(Inc_comp, matriz_desolcamentos, nm)
     tensoes = resultado_tensao(Inc_comp, matriz_deformacao)
     forcas = resultado_forca(Inc_comp, tensoes)
